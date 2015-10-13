@@ -23,6 +23,7 @@
   "homepage": "https://github.com/ONYX-CRAB/pledgr",
   "dependencies": {
     "body-parser": "^1.10.0",
+    "bower": "^1.5.3",
     "cheerio": "^0.18.0",
     "dotenv": "^0.4.0",
     "express": "^4.10.4",
