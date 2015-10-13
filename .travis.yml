@@ -1,0 +1,11 @@
+language: node_js
+before_install:
+  - npm update -g npm
+before_script:
+  - npm install -g grunt-cli
+  - npm install -g bower
+  - bower install
+node_js:
+  - '0.10'
+notifications:
+  email: false

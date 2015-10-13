@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html ng-app="pledgr">
+<head lang="en">
+ <title>pledgr</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="styles/style.css" />
+  <script src="bower_components/angular/angular.min.js"></script>
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+  <script type="text/javascript" src="https://js.stripe.com/v2/"></script>
+  <script type="text/javascript" src="bower_components/angular-payments/lib/angular-payments.js"></script>
+  <script src="app/app.js"></script>
+  <script src="app/home/home.js"></script>
+  <script src="app/signup/signup.js"></script>
+  <script src="app/charities/charities.js"></script>
+  <script src="app/signin/signin.js"></script>
+  <script src="app/profile/profile.js"></script>
+  <script src="app/factories/factories.js"></script>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-4">
+        <h1 class="logo">pledgr</h1>
+      </div>
+      <div class="col-sm-8 nav">
+        <a ui-sref="signin" class="btn btn-default navbar-btn">Sign in</a>
+      </div>
+    </div>
+    <!-- the div where all templates will be loaded -->
+    <div ui-view class="row uiContainer">
+
+    </div>
+  </div>
+
+  <script src="bower_components/highcharts/highcharts.js"></script>
+</body>
+</html>
