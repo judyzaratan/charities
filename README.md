@@ -1,13 +1,7 @@
 # pledgr
-[![Build Status](https://travis-ci.org/warring-hail/greenfield.png)](https://travis-ci.org/warring-hail/greenfield)
 
 Charitable giving, simplified.
 
-## Team
-
-  - __Product Owner__: [rustinpc](https://github.com/rustinpc)
-  - __Scrum Master__: [sgtonkin](https://github.com/sgtonkin)
-  - __Development Team Members__: [dduugg](github.com/dduugg), [mlom](https://github.com/mlom)
 
 ## Table of Contents
 
@@ -46,7 +40,6 @@ bower install
 
 ### Roadmap
 
-View the project roadmap [here](https://github.com/warring-hail/greenfield/issues)
 
 
 ## Contributing

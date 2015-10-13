@@ -9,17 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ONYX-CRAB/pledgr.git"
   },
   "keywords": [
     "charitable giving"
   ],
-  "author": "warring-hail",
+
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ONYX-CRAB/pledgr/issues"
   },
-  "homepage": "https://github.com/ONYX-CRAB/pledgr",
   "dependencies": {
     "body-parser": "^1.10.0",
     "cheerio": "^0.18.0",
